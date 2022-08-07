@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/gvvsnrnaveen/golang_data_security/base64"
 	"github.com/gvvsnrnaveen/golang_data_security/aes"
+	"github.com/gvvsnrnaveen/golang_data_security/sha"
 )
 
 func base64_encode_decode(message string){
@@ -46,6 +47,15 @@ func aes_encrypt_decrypt(message string){
 	fmt.Println("===========================\n");
 }
 
+func sha_encoding(message string){
+	fmt.Println("SHA Encodings - SHA2 and SHA3")
+	engine, result := sha.PerformSha([]byte(message))
+	for i:=0; i<len(result); i++{
+		fmt.Println(engine[i], ": ", base64.Base64Encoding([]byte(result[i])), "\n")
+	}
+	fmt.Println("===========================\n");
+}
+
 func main(){
 	fmt.Println("Main Program");
 	message := "Hai naveen how are you"
@@ -55,4 +65,7 @@ func main(){
 
 	// aes encryption decryption sample
 	aes_encrypt_decrypt(message)
+
+	// sha encodings samples
+	sha_encoding(message)
 }

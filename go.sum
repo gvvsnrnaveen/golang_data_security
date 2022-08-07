@@ -1,2 +1,6 @@
 github.com/mergermarket/go-pkcs7 v0.0.0-20170926155232-153b18ea13c9 h1:j6boLfPkcFlRVaKbc0hf5PVh3jJrdHv9n6SIPOdVKaU=
 github.com/mergermarket/go-pkcs7 v0.0.0-20170926155232-153b18ea13c9/go.mod h1:GH7jtq102ZiRB7LEKgqP54akN7GOVaNpCJrDWTeWSMY=
+golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa h1:zuSxTR4o9y82ebqCUJYNGJbGPo6sKVl54f/TVDObg1c=
+golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
+golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 h1:SrN+KX8Art/Sf4HNj6Zcz06G7VEz+7w9tdXTPOZ7+l4=
+golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
